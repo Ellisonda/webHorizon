@@ -1,0 +1,400 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.nav-link {
+  color: black !important;
+  letter-spacing: .2em !important;
+  padding: .4rem 2rem !important;
+  margin-left: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  border: 1px solid #DAA520;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.text-header {
+  min-height: 100vh;
+  color: #fff;
+  letter-spacing: .9rem;
+  font-family: 'Great Vibes', cursive !important;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  font-size: 2rem;
+}
+
+.text-header p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+br {
+  height: 10%;
+}
+
+.banner {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./img/FONDOWEB.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.banner h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4em;
+  margin-top: 1.9rem;
+}
+
+.banner h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+}
+
+.banner .col-maximice {
+  background-color: #fff;
+  border-radius: 0%;
+}
+
+.banner .col-maximice hr {
+  border: solid 1px goldenrod;
+}
+
+.experiencias {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.experiencias h2 {
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: .3rem;
+}
+
+.experiencias p {
+  font-size: 1.2rem;
+}
+
+#maximice-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  margin: 50px;
+}
+
+#maximice-text span {
+  font-weight: bold;
+}
+
+.jumbotron {
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+  width: 100% !important;
+  background-color: #fff !important;
+  height: 70% !important;
+  margin: 10px auto !important;
+  font-family: 'Cormorant Garamond', serif;
+  position: relative;
+}
+
+.jumbotron p {
+  font-size: 2em;
+}
+
+.colladge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.colladge .column {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.colladge .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 370px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-item {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#titulo_modelos {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.carta-img-top {
+  width: 100%;
+}
+
+#cartita {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.card_thumb {
+  height: 300px;
+  overflow: hidden;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+}
+
+.card_thumb img {
+  width: 100%;
+  display: block;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+#cartita-body {
+  position: relative;
+  height: 50px;
+  padding: 20px;
+  -webkit-transition: height 0.5s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  color: #fff;
+  background-color: black;
+  font-family: 'Playfair Display', serif;
+}
+
+.card_title {
+  margin: 0;
+  padding: 0 0 10px 0;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.card_subtitle {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 19px;
+  color: beige;
+}
+
+.card_description {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 27px;
+  opacity: 0;
+  -webkit-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+#cartita:hover .card_description {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: .2s;
+}
+
+#cartita:hover .card_thumb {
+  height: 130px;
+}
+
+#cartita:hover .card_thumb img {
+  opacity: 0.6;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#cartita:hover #cartita-body {
+  height: 220px;
+}
+
+#cartita h5:hover {
+  color: #DAA520;
+}
+
+#prefooter {
+  background-image: url(./img/atardecer_footer.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  min-height: 20vh;
+  margin: 0;
+  margin-top: 100px;
+  color: black;
+  letter-spacing: .5em;
+}
+
+#prefooter h1 {
+  font-size: 2em;
+  padding: 1rem;
+  margin: 5px;
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+}
+
+#texto_reserva {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#boton_reserva {
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(229, 229, 229, 0.1);
+  text-align: center;
+  width: 100%;
+  letter-spacing: 5px;
+  font-size: 2rem;
+}
+
+#boton_reserva a {
+  background: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid;
+  color: #fff;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 250px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.btn:hover, .btn:active {
+  -webkit-transition: all 650ms ease-in-out;
+  transition: all 650ms ease-in-out;
+}
+
+.btn:after,
+.btn:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(218, 165, 32, 0);
+  bottom: 5px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 680ms ease-in-out;
+  transition: all 680ms ease-in-out;
+  width: 0;
+}
+
+.btn:hover:after,
+.btn:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #DAA520;
+  -webkit-transition: width 650ms ease-in-out;
+  transition: width 650ms ease-in-out;
+  width: 100%;
+}
+
+.btn:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 100%;
+}
+
+.contact-info {
+  background-color: black;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  width: 100%;
+}
+
+#info_de_contacto h2 {
+  -webkit-text-decoration: 1px solid #DAA520;
+          text-decoration: 1px solid #DAA520;
+}
+
+#desarrollador a {
+  color: #343A40 !important;
+  text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=styles.css.map */

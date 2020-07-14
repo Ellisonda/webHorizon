@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/experiencias_banner.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+}
+
+#prefooter {
+  margin-top: 0 !important;
+}
+/*# sourceMappingURL=experiencias.css.map */
