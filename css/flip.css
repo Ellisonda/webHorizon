@@ -9,7 +9,7 @@ body {
 #tarjetas {
   content: '';
   width: 100%;
-  background-color: #ccc5b9;
+  background-color: #F5F5F5;
   border-radius: 10px;
 }
 
@@ -22,8 +22,8 @@ body {
   display: block;
   -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
           transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
@@ -99,7 +99,7 @@ body {
   padding: 1em 2em;
   background: black;
   border-radius: 10px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .flip > .front p,

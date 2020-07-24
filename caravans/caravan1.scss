@@ -95,6 +95,7 @@ html {
       font-family: 'Cormorant Garamond', serif;
       padding-bottom: 10px;
       
+      
       img {
         height: 170px;
         padding: 0;
@@ -102,6 +103,12 @@ html {
       }
       
       
+    }
+    
+    @media only screen and (max-width: 576px){
+      #fotos_chasis {
+        visibility: hidden;
+      }
     }
     
     

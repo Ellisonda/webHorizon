@@ -20,7 +20,9 @@ body {
     background-position:center;
   }
   
-  
+  .navbar {
+    height: 65px;
+  }
 
   .nav-link {
       color: black !important;
@@ -94,9 +96,9 @@ body {
     }
   }
   #maximice-text {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5rem;
-    margin:50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3em;
+    
     span {
       font-weight: bold;
     }
@@ -111,27 +113,19 @@ body {
       font-family: 'Cormorant Garamond', serif;
       
       position: relative;
+      h3 {
+        font-family: 'Herr Von Muellerhoff', cursive;
+        font-size: 3em;
+        
+        letter-spacing: .2em;
+      }
       p {
-        font-size: 2em;
+        font-size: 1.3em;
+        font-family: 'Dosis', sans-serif;
+
       }
   }
-  .colladge {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 0 4px;   
-      .column {
-          flex:25%;
-          max-width: 25%;
-          padding: 0 4px;
-          img {
-            margin-top: 8px;
-            vertical-align: middle;
-            width: 100%;
-          }
-      }
-      
-        
-      }
+ 
 
       .carousel-item  {
         height: 370px ;
@@ -139,7 +133,7 @@ body {
       }
       @media screen and (max-width:768px){
         .carousel-item {
-          height: 320px;
+          height: 250px;
         }
         
       }
@@ -393,10 +387,14 @@ body {
     }
   }
   
-  #desarrollador a {
-      color: #343A40 !important;
+  #desarrollador {
+      background-color: black;
+    a {
+      color: #DAA520 !important;
+      
       text-decoration: none !important;
       margin:0;
       padding: 0;
+      }
   }
   

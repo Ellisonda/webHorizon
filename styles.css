@@ -23,6 +23,10 @@ body {
   background-position: center;
 }
 
+.navbar {
+  height: 65px;
+}
+
 .nav-link {
   color: black !important;
   letter-spacing: .2em !important;
@@ -101,9 +105,8 @@ br {
 }
 
 #maximice-text {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.5rem;
-  margin: 50px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3em;
 }
 
 #maximice-text span {
@@ -121,31 +124,15 @@ br {
   position: relative;
 }
 
+.jumbotron h3 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 3em;
+  letter-spacing: .2em;
+}
+
 .jumbotron p {
-  font-size: 2em;
-}
-
-.colladge {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.colladge .column {
-  -webkit-box-flex: 25%;
-      -ms-flex: 25%;
-          flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.colladge .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+  font-size: 1.3em;
+  font-family: 'Dosis', sans-serif;
 }
 
 .carousel-item {
@@ -154,7 +141,7 @@ br {
 
 @media screen and (max-width: 768px) {
   .carousel-item {
-    height: 320px;
+    height: 250px;
   }
 }
 
@@ -391,8 +378,12 @@ br {
           text-decoration: 1px solid #DAA520;
 }
 
+#desarrollador {
+  background-color: black;
+}
+
 #desarrollador a {
-  color: #343A40 !important;
+  color: #DAA520 !important;
   text-decoration: none !important;
   margin: 0;
   padding: 0;

@@ -88,6 +88,12 @@ html {
   padding: 0;
 }
 
+@media only screen and (max-width: 576px) {
+  #fotos_chasis {
+    visibility: hidden;
+  }
+}
+
 .prefooter {
   margin-top: 0 !important;
 }
