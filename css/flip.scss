@@ -1,5 +1,13 @@
 .banner {
     background-image: url(../img/947.jpg) !important;
+
+}
+@media only screen and (max-width: 576px){
+    .banner {
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+    }
 }
 body {
     text-align: center;
@@ -20,7 +28,7 @@ body {
     >.back {
         display: block;
         transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-        transition-duration: 1.5s;
+        transition-duration: 1s;
         transition-property: transform, opacity;
         
         
